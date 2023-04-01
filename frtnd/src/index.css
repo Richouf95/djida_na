@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
+
+body {
+  font-family: "Poppins";
+}
+
+nav {
+  background: rgb(15, 14, 14);
+  color: white;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.dashboardItem:hover {
+  background: #100E0E;
+  color: white;
+}
+
+.hehe {
+  background: red;
+}
+
+.error {
+  border: 2px solid red;
+  margin-top: 20px;
+  border-radius: 5px;
+  padding: 5px;
+  background: rgba(255, 0, 0, 0.22);
+}
+
+@media only screen and (max-width: 767px) {
+  .navlist {
+    padding: 20px;
+    display: block;
+  }
+  #separete {
+    border-top: 0.1px solid white;
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  #separete {
+    display: none;
+    border-top: 0.1px solid white;
+    width: 10%;
+  }
+}
